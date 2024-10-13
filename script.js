@@ -35,7 +35,7 @@ function fazerLogin(event) {
         if (usuario.senha === senha) {
             alert(`Bem-vindo, ${usuario.nome}!`);
             // Redireciona para a página inicial (index.html)
-            window.location.href = "index.html"; // Aqui redireciona para a página inicial
+            window.location.href = "inicio.html"; // Aqui redireciona para a página inicial
         } else {
             alert("Senha incorreta. Tente novamente.");
         }
