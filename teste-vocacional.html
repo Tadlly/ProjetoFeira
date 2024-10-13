@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Teste Vocacional - Feira das Profissões</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-teste-vocacional.css"> <!-- CSS específico para a página -->
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo Feira das Profissões" class="logo">
+        </div>
+        <h1>Teste Vocacional</h1>
+        <p>Descubra qual é a melhor carreira para você!</p>
+    </header>
+
+    <div class="container">
+        <h2>Responda ao nosso teste vocacional para descobrir suas aptidões profissionais</h2>
+        <form id="teste-vocacional">
+            <div class="question">
+                <h3>1. Você prefere trabalhar com...</h3>
+                <label><input type="radio" name="questao1" value="Tecnologia"> Tecnologia</label><br>
+                <label><input type="radio" name="questao1" value="Ciências Humanas"> Ciências Humanas</label><br>
+                <label><input type="radio" name="questao1" value="Saúde"> Saúde</label><br>
+                <label><input type="radio" name="questao1" value="Artes"> Artes</label><br>
+                <label><input type="radio" name="questao1" value="Engenharia"> Engenharia</label><br>
+                <label><input type="radio" name="questao1" value="Administração"> Administração</label>
+            </div>
+
+            <div class="question">
+                <h3>2. Você se considera uma pessoa...</h3>
+                <label><input type="radio" name="questao2" value="Criativa"> Criativa</label><br>
+                <label><input type="radio" name="questao2" value="Organizada"> Organizada</label><br>
+                <label><input type="radio" name="questao2" value="Comunicativa"> Comunicativa</label><br>
+                <label><input type="radio" name="questao2" value="Prática"> Prática</label><br>
+                <label><input type="radio" name="questao2" value="Líder"> Líder</label><br>
+                <label><input type="radio" name="questao2" value="Analítica"> Analítica</label>
+            </div>
+
+            <div class="question">
+                <h3>3. O que mais te motiva?</h3>
+                <label><input type="radio" name="questao3" value="Inovação"> Inovação</label><br>
+                <label><input type="radio" name="questao3" value="Estabilidade"> Estabilidade</label><br>
+                <label><input type="radio" name="questao3" value="Trabalhar com pessoas"> Trabalhar com pessoas</label><br>
+                <label><input type="radio" name="questao3" value="Desafios"> Desafios</label><br>
+                <label><input type="radio" name="questao3" value="Impactar o mundo"> Impactar o mundo</label><br>
+                <label><input type="radio" name="questao3" value="Alta remuneração"> Alta remuneração</label>
+            </div>
+
+            <div class="question">
+                <h3>4. Você prefere trabalhar em...</h3>
+                <label><input type="radio" name="questao4" value="Escritório"> Escritório</label><br>
+                <label><input type="radio" name="questao4" value="Ao ar livre"> Ao ar livre</label><br>
+                <label><input type="radio" name="questao4" value="Ambiente de laboratório"> Ambiente de laboratório</label><br>
+                <label><input type="radio" name="questao4" value="Locais criativos"> Locais criativos</label><br>
+                <label><input type="radio" name="questao4" value="Indústria"> Indústria</label><br>
+                <label><input type="radio" name="questao4" value="Ambiente corporativo"> Ambiente corporativo</label>
+            </div>
+
+            <div class="submit-btn">
+                <button type="submit">Ver Resultado</button>
+            </div>
+        </form>
+
+        <div id="resultado" style="display:none;">
+            <h2>Seu Resultado</h2>
+            <p id="mensagem-resultado"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Feira das Profissões. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script-teste-vocacional.js"></script> <!-- Script para o teste vocacional -->
+</body>
+</html>
